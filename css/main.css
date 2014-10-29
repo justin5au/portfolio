@@ -185,6 +185,10 @@ h5 {
 
 /* PORTFOLIO WORK */
 
+.bottomspace {
+    margin-bottom:15px;
+}
+
 .piece {
     height:100%;
     width:100%;
@@ -192,11 +196,15 @@ h5 {
     top:0;
     position:absolute;
     z-index:1;
+    background-color:black;
+    opacity:0;
 }
 
 
-a:hover + recipe image{
+a:hover .piece{
     opacity:0.5;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
 }
 
 
