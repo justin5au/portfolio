@@ -29,6 +29,8 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
+    <body <?if($page!=='index'){echo 'class="tsmc-body"';}?>>
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -54,65 +56,50 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
-<br><br>
+
     <div class="container">
-        <div class="row bottomspace">
-            <div class = "col-md-3 col-xs-6">
-                <h5>US/CN Fight For Free Speech</h5>
-                <a href="piece1.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb1.png">
-            </div>
-             <div class = "col-md-3 col-xs-6">
-                <h5>Data Visualizations</h5>
-                <a href="piece2.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb2.jpg">
-            </div>
-           <div class = "col-md-3 col-xs-6">
-                <h5>ONE: Works by Wendell Berry</h5>
-                <a href="piece3.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb3.jpg">
-            </div>
-           <div class = "col-md-3 col-xs-6">
-                <h5>nom. Branding</h5>
-                <a href="piece4.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb4.jpg">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2 class="title"><br>How is Bread Mass Produced?</h1>
+                <h2>A children's book about bread production.</h2>
+                <br>
             </div>
         </div>
-        <div class="row bottomspace">
-            <div class = "col-md-3 col-xs-6">
-                <h5>Typornography   </h5>
-                <a href="piece5.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb5.jpg">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 white">This short children's book is an infographical representation of all the scientific and logistical processes of how bread is created and brought to our breakfast tables.<br><br>The aim of the booklet is to communicate these complicated processes in an iconic and graphic way.<br><br>Scroll downwards to view the full book.</div><br>
             </div>
-             <div class = "col-md-3 col-xs-6">
-                <h5>Berry Patch</h5>
-                <a href="piece6.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb6.jpg">
-            </div>
-           <div class = "col-md-3 col-xs-6">
-                <h5>How Is Bread Mass-produced?</h5>
-                <a href="piece7.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb7.jpg">
-            </div>
-           <div class = "col-md-3 col-xs-6">
-                <h5>Population Infographics</h5>
-                <a href="piece8.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb8.jpg">
-            </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10"><br><br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7be4b08ddcf7ff9d66/1393396358491/5.jpg?format=750w"></img>
+            <br>
+            <img class="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7be4b0b6000571691e/1393396354327/4.jpg?format=750w"></img>
+            <br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7be4b08ddcf7ff9d64/1393396378625/3.jpg?format=750w"></img>
+            <br><br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7ae4b0b60005716916/1393396355567/2.jpg?format=750w"></img>
+            <br><br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7ee4b088a20944f143/1393396359273/8.jpg?format=750w"></img></a>
+            <br><br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7fe4b046c4d2bd1cef/1393396357167/9.jpg?format=750w"></img></a>
+            <br><br>
+            <img src="http://static.squarespace.com/static/52f93bb6e4b0309f5b0f709b/52fb29a4e4b024e798274695/530d8a7ae4b08ddcf7ff9d62/1393396354006/1.JPG?format=750w"></img></a>
+            <br><br><br>
+            
         </div>
-        <div class="row bottomspace">
-            <div class = "col-md-3 col-xs-6">
-                <h5>Animal Illustrations</h5>
-                <a href="piece9.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb9.jpg">
-            </div>
-           <div class = "col-md-3 col-xs-6">
-                <h5>The Square Root of Lassitude</h5>
-                <a href="piece10.html"><span class="piece"></span></a>
-                <img class="img-responsive" src="img/thumb11.jpg">
+
+                
             </div>
         </div>
     </div>
-<br><br><br>
+
+
+
+    <?php endif;?>
+<!-- </div> uncomment div in header.php -->
+</body>
+</html>
 
 </html>
